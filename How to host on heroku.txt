@@ -1,0 +1,14 @@
+download heroku cli
+download git
+pip install gunicorn, whitenoise, requests, django_heroku
+create procfile
+create requirements.txt file (use virtual env)
+settings.py add import django_heroku, django_heroku.settings(locals())
+add owl files in css folder
+
+heroku logic
+heroku create appname
+heroku git:remote -a appname
+git add .
+git commit -m "M"
+git push
