@@ -14,8 +14,8 @@ def index(request):
         database = CompanyDatabase.objects.filter(year=year_no.year)
     except:
         PresentYear.objects.create(year=2020)
-         year_no = 2020
-         database = CompanyDatabase.objects.filter(year=year)
+        year_no = 2020
+        database = CompanyDatabase.objects.filter(year=year)
 
     
 
