@@ -1,5 +1,6 @@
 # Placement-Stats-Django
 
+This website displays college placements and offers made for 2019 and 2020 batch of students. This is built on Django<br>
 
 python manage.py makemigrations
 <br>
